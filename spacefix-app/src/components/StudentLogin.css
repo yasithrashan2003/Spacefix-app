@@ -105,3 +105,107 @@
     font-size: 18px;
   }
   
+  /* Responsive styles */
+@media (max-width: 1024px) {
+  .login-form {
+      max-width: 350px;  /* Slightly smaller form on tablet */
+      padding: 30px;
+  }
+
+  .login-title {
+      font-size: 22px;  /* Adjust title font size */
+  }
+
+  .input {
+      font-size: 14px;  /* Slightly smaller font for inputs */
+      padding: 8px;  /* Adjust padding for smaller screens */
+  }
+
+  .submit-btn {
+      padding: 10px;  /* Adjust button padding */
+      font-size: 14px;  /* Adjust button font size */
+  }
+
+  .google-btn {
+      padding: 10px;  /* Adjust button padding */
+      font-size: 14px;  /* Adjust button font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .login-form {
+      max-width: 300px;  /* Further reduce form size on smaller tablets */
+      padding: 25px;
+  }
+
+  .login-title {
+      font-size: 20px;  /* Reduce title font size */
+  }
+
+  .input {
+      font-size: 14px;  /* Smaller font size for inputs */
+      padding: 8px;  /* Reduced padding for inputs */
+  }
+
+  .submit-btn {
+      padding: 10px;  /* Adjust button padding */
+      font-size: 14px;  /* Adjust button font size */
+  }
+
+  .google-btn {
+      padding: 10px;  /* Adjust button padding */
+      font-size: 14px;  /* Adjust button font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form {
+      max-width: 280px;  /* Make form narrower for mobile */
+      padding: 20px;
+  }
+
+  .login-title {
+      font-size: 18px;  /* Reduce title font size for small screens */
+  }
+
+  .input {
+      font-size: 14px;  /* Ensure readability on mobile */
+      padding: 8px;  /* Adjust padding */
+  }
+
+  .submit-btn {
+      padding: 10px;  /* Adjust button padding */
+      font-size: 14px;  /* Adjust font size */
+  }
+
+  .google-btn {
+      padding: 10px;  /* Adjust padding */
+      font-size: 14px;  /* Adjust font size */
+  }
+}
+
+@media (max-width: 320px) {
+  .login-form {
+      max-width: 260px;  /* Even smaller form for very small screens */
+      padding: 15px;
+  }
+
+  .login-title {
+      font-size: 16px;  /* Smaller title font */
+  }
+
+  .input {
+      font-size: 14px;  /* Keep input readable */
+      padding: 8px;  /* Adjust padding */
+  }
+
+  .submit-btn {
+      padding: 8px;  /* Smaller padding for buttons */
+      font-size: 14px;  /* Adjust font size */
+  }
+
+  .google-btn {
+      padding: 8px;  /* Adjust padding */
+      font-size: 14px;  /* Adjust font size */
+  }
+}

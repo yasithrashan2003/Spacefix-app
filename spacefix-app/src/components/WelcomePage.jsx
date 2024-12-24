@@ -30,7 +30,9 @@ const WelcomePage = () => {
             <Link to="/student-login">Student Login</Link>
             </button>
 
-            <button className="login-btn">Lecture Login</button>
+            <button className="login-btn">
+            <Link to="/lecture-login">Lecture Login</Link>
+            </button>
             
             {/* Service Login Dropdown */}
             <div className="dropdown">

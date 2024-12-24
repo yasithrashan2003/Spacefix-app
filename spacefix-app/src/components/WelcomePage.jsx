@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './WelcomePage.css';
+import spacemanagementImg from '../assets/spacemanagement.jpg';
+
 
 const WelcomePage = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -61,10 +63,7 @@ const WelcomePage = () => {
 
         {/* Right Column - Image */}
         <div className="image-section">
-          <img 
-            src="..\src\assets\spacemanagement.jpg"
-            alt="University classroom"
-          />
+        <img src={spacemanagementImg} alt="University classroom" />
         </div>
       </main>
     </div>

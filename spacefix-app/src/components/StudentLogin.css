@@ -1,0 +1,107 @@
+/* StudentLogin.css */
+
+/* Global styles for the login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7f6 0%, #e3f2fd 50%, #fce4ec 100%);
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #4a5568;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #4a5568;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #4c51bf;
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background-color: #4c51bf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #434190;
+  }
+  
+  .separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .separator-text {
+    font-size: 14px;
+    color: #4a5568;
+  }
+  
+  .google-btn {
+    padding: 12px;
+    background-color: #db4437; /* Google red color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-btn:hover {
+    background-color: #c1351d;
+  }
+  
+  .google-icon {
+    font-size: 18px;
+  }
+  

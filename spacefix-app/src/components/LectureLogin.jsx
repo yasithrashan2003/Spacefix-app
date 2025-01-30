@@ -1,5 +1,3 @@
-
-// export default LectureLogin;
 import { useState } from 'react';
 import { auth, googleProvider, db } from '../config/firebase';
 import { signInWithPopup, signInWithEmailAndPassword } from 'firebase/auth';
@@ -22,7 +20,11 @@ const LectureLogin = () => {
 
       // Check if the email exists in 'lecturers' collection
       const lectureRef = doc(db, 'lecturers', user.email);
-      const lectureSnap = await getDoc(lectureRef);      
+      const lectureSnap = await getDoc(lectureRef);
+
+      if (!lectureSnap.exists()) {
+        throw new Error('Unauthorized access. Only lecturers can login here.');
+      }
 
       navigate('/lecture-dashboard');
     } catch (error) {
